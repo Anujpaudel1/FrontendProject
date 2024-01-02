@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset= "UTF-8">
+<link rel="shortcut icon" type="x-icon" href="logo.png">
+<title>Big Mart Sales Prediction</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="circle"></div>
+<header>
+    <a href="index.html"><img src="logo.png" class="logo"></a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutus.html">About US</a></li>
+<ul><li><a class="login" href="login.html">Login</a></li><ul></ul>
+</ul>
+</header>
+<div class="content">
+    <div class="textBox">
+    <h2>BigMart is the leading grocery <br> <span>and department store chain in Nepal</span></h2>
+    <p> with over 25 outlets in the Kathmandu valley alone.
+        BigMart wants not only to be the leading, but also the most innovative retail chain in Nepal.
+        They strive to achieve this by providing the best services and convenience to their customers using the latest technologies and ideas.
+     </p>
+    <a href="https://www.ekbana.com/case-studies/bigmart-largest-retail-chain-in-nepal" target="_blank">Learn More </a>
+    </div>
+    <div class="imgBox">
+    <img src="img1.png" class="bigmart">
+    </div>
+    </div>
+    <ul class="thumb">
+        <li><img src="thumb1.png"onclick="imgSlider('img1.png')"></li>
+        <li><img src="thumb2.png"onclick="imgSlider('img2.png')"></li>
+        <li><img src="thumb3.png"onclick="imgSlider('img3.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/BigmartNepal" target="_blank"><img src="facebook.png"></a></li>
+            <li><a href="https://twitter.com/hashtag/bigmartnepal?src=hashtag_click" target="_blank"><img src="twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/big_mart_official/" target="_blank"><img src="instagram.png"></a></li>
+            </ul>
+</section>
+<script type="text/javascript">
+    function imgSlider(anything) {
+    document.querySelector('.bigmart').src = anything;
+    }
+    </script>
+</body>
+</html>
